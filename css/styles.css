@@ -16,27 +16,27 @@
   --GREY: #2E2F42;
   --WHITE: #FFFFFF;
   --Dairy: #FCFCFC;
-
+  --Peacoat: #434455;
   --raleway: 'Raleway', sans-serif;
-  --open-sans: 'Open Sans', sans-serif;
+  --roboto: 'Roboto', sans-serif
 }
 
 body{
-width: 1440px;
+  width: 1440px;
   height: 2592px;
-  background: var(--WHITE);
-  font-family: var(--open-sans);
+  background: var(#434455)
+  font-family: Roboto, sans-serif;
 }
 nav{
     background: var(--WHITE, #FFF);
 }
 .web{
-  color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
+  color: var( #4D5AE5);
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 800;
-    line-height: 21px;
-    letter-spacing: 0.54px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     width: 44px;
 }
