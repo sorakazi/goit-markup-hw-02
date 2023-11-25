@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,800;1,800&family=Roboto:ital,wght@0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
 * {
   margin: 0%;
   padding: 0%;
 }
 
 :root {
-  --IRIS: var;
+  --IRIS: #4D5AE5;
   --OCEAN: #404BBF;
   --NAVY-BLUE: #2E2F42;
   --green: #31D0AA;
@@ -18,8 +19,8 @@
   --WHITE: #FFFFFF;
   --Dairy: #FCFCFC;
   --Peacoat: #434455;
-  --raleway: 'Raleway',sans-serif;
-  --roboto: 'Roboto',sans-serif
+  --raleway: 'Raleway', sans-serif;
+  --roboto: 'Roboto', sans-serif
 }
 
 body {
@@ -31,20 +32,14 @@ body {
   color: var(--Peacoat, #434455);
 }
 
-nav {
+.header {
   background: var(--WHITE, #FFF);
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
-.web {
-  color: var(#4D5AE5);
-  font-family: 'Raleway',sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  width: 44px;
-}
+
 
 .studio {
   width: 71px;
@@ -58,7 +53,7 @@ nav {
   text-transform: uppercase;
 }
 
-.f-studio {
+.footer-studio {
   color: var(--CLOUD, #F4F4FD);
   font-family: 'Raleway',
     sans-serif;
@@ -66,20 +61,27 @@ nav {
   font-style: normal;
   font-weight: 800;
   line-height: 21px;
-  /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 
 .nav-link {
   text-decoration: none;
+  color: var(#4D5AE5);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  width: 44px;
 }
 
-.nav-menu {
+ul {
   list-style: none;
 }
 
-.nav-item-link {
+.default-link {
   color: var(--NAVY-BLUE, #2E2F42);
   font-family: 'Roboto',
     sans-serif;
@@ -91,22 +93,25 @@ nav {
   text-decoration: none;
 }
 
-.nav-item-link:hover {
-  color: var(--IRIS);
+.default-link:hover {
+  color: var(--OCEAN, #404BBF);
 }
 
-.address-item-link {
+.default-list {
   color: var(--SLATE, #434455);
   font-family: 'Roboto',
     sans-serif;
   font-size: 16px;
   font-style: normal;
-  letter-spacing: 0.32px;
+  letter-spacing: 1.5;
   text-decoration: none;
+  line-height: 1.5;
 }
 
-.address-item-link:hover {
-  color: var(--IRIS);
+
+.default-list:hover {
+  color: var(--OCEAN,
+    #404BBF);
 }
 
 .main {
