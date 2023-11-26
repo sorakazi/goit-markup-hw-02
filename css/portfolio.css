@@ -25,16 +25,16 @@ body {
   color: value #434455;
   width: 1440px;
   height: 2076px;
-  background: var(--WHITE);
+  background: var(#FFFFFF);
   font-family: roboto, sans-serif;
 }
 
 nav {
-  background: var(--WHITE, #FFF);
+  background: var( #FFF);
 }
 
 .web {
-  color: var(--IRIS, #4D5AE5);
+  color: var( #4D5AE5);
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
