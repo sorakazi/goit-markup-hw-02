@@ -33,13 +33,13 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
 }
 
-.nav-logo:link {
+.a:link{
   text-decoration: none;
 }
 
@@ -53,6 +53,9 @@ nav span {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
+.main-item{
+
+}
 
 .studio {
   color: var(--NAVY-BLUE);
@@ -60,11 +63,10 @@ nav span {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-
   letter-spacing: 0.32px;
 }
 
-.default-list {
+ul{
   list-style: none;
   text-decoration: none;
 }
@@ -73,7 +75,7 @@ nav ul {
   list-style-type: none;
 }
 
-.default-link a[href="./index.html"] {
+.default-list{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -81,46 +83,28 @@ nav ul {
   text-decoration: none;
   color: var(--NAVY-BLUE);
 }
-
-.default-link:link a,
-.default-link:hover a,
-.default-link a:focus {
+.default-list:link,
+.default-list:hover{
+  text-decoration: none;
   color: var(--OCEAN);
-}
 
-.default-list {
-  color: var(--NAVY-BLUE);
-  font-family: var(--roboto);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-}
-
-.default-link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--NAVY-BLUE);
-  text-decoration: none;
 }
 
 .default-mail {
-  color: var(--SLATE, #434455);
+  color: var(--SLATE);
   font-family: var(--roboto);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
-  text-decoration: none;
 }
 
-.address:link a,
-.address:hover a,
-.address:focus a {
+.default-mail:link,
+.default-mail:hover,
+.default-mail:focus{
+  color: var(--OCEAN);
+  text-decoration: none;
   color: var(--OCEAN);
 }
 
@@ -152,18 +136,10 @@ nav ul {
   background-color: var(--OCEAN);
 }
 
-.hero-list {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--NAVY-BLUE);
-  list-style: none;
-}
 
-h3 {
+.head{
   color: var(--NAVY-BLUE);
-  font-family: var();
+  font-family: var(--NAVY-BLUE);
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -181,19 +157,15 @@ h3 {
   letter-spacing: 0.32px;
 }
 
-.job {
-  list-style: none;
-  background-color: var(--WHITE);
-}
 
-h2 {
+.jobs{
   color: var(--NAVY-BLUE);
   text-align: center;
   font-family: var(--roboto);
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
