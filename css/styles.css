@@ -22,16 +22,14 @@
 }
 
 body {
-  font-family: 'Roboto',
-    sans-serif;
-  color: var(--SLATE, #434455);
-  background-color: var(--WHITE, #FFFFFF);
+  font-family:var(--roboto);
+  color: var(--SLATE);
+  background-color: var(--WHITE);
 }
 
 .nav-logo {
-  color: var(--IRIS, #4D5AE5);
-  font-family: var('Raleway',
-      sans-serif);
+  color: var(--IRIS);
+  font-family: var(--raleway);
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -46,9 +44,8 @@ body {
 }
 
 nav span {
-  color: var(--NAVY-BLUE, #2E2F42);
-  font-family: var('Raleway',
-      sans-serif);
+  color: var(--NAVY-BLUE);
+  font-family: var(--raleway);
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -58,9 +55,8 @@ nav span {
 }
 
 .studio {
-  color: var(--NAVY-BLUE, #2E2F42);
-  font-family: var('Roboto',
-      sans-serif);
+  color: var(--NAVY-BLUE);
+  font-family: var(--roboto);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -83,19 +79,18 @@ nav ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: var(--NAVY-BLUE, #2E2F42);
+  color: var(--NAVY-BLUE);
 }
 
 .default-link:link a,
 .default-link:hover a,
 .default-link a:focus {
-  color: var(--OCEAN, #404BBF);
+  color: var(--OCEAN);
 }
 
 .default-list {
-  color: var(--NAVY-BLUE, #2E2F42);
-  font-family: var('Roboto',
-      sans-serif);
+  color: var(--NAVY-BLUE);
+  font-family: var(--roboto);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -108,14 +103,13 @@ nav ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--NAVY-BLUE);
   text-decoration: none;
 }
 
 .default-mail {
   color: var(--SLATE, #434455);
-  font-family: var('Roboto',
-      sans-serif);
+  font-family: var(--roboto);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -127,11 +121,11 @@ nav ul {
 .address:link a,
 .address:hover a,
 .address:focus a {
-  color: var(--OCEAN, #404BBF);
+  color: var(--OCEAN);
 }
 
 .main {
-  background: var(--NAVY-BLUE, #2E2F42);
+  background: var(--NAVY-BLUE);
 }
 
 .main-header {
@@ -139,24 +133,23 @@ nav ul {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--WHITE, #FFFFFF);
+  color: var(--WHITE);
 }
 
 .main-button {
-  background-color: var(--IRIS,#4D5AE5);
-  font-family: var('Roboto',
-      sans-serif);
+  background-color: var(--IRIS);
+  font-family: var(--roboto);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--WHITE, #FFFFFF);
+  color: var(--WHITE);
   cursor: pointer;
 }
 
 .main-button:hover,
 .main-button:focus {
-  background-color: var(--OCEAN, #404BBF);
+  background-color: var(--OCEAN);
 }
 
 .hero-list {
@@ -164,14 +157,13 @@ nav ul {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--NAVY-BLUE);
   list-style: none;
 }
 
 h3 {
-  color: var(--NAVY-BLUE, #2E2F42);
-  font-family: var('Roboto',
-      sans-serif);
+  color: var(--NAVY-BLUE);
+  font-family: var();
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -179,9 +171,9 @@ h3 {
   letter-spacing: 0.4px;
 }
 
-p {
-  color: var(--SLATE, #434455);
-  font-family: Roboto;
+ .first-text{
+  color: var(--SLATE);
+  font-family: var(--roboto);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -191,14 +183,13 @@ p {
 
 .job {
   list-style: none;
-  background-color: var(--WHITE, #FFFFFF);
+  background-color: var(--WHITE);
 }
 
 h2 {
-  color: var(--NAVY-BLUE, #2E2F42);
+  color: var(--NAVY-BLUE);
   text-align: center;
-  font-family: var('Roboto',
-      sans-serif);
+  font-family: var(--roboto);
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -212,17 +203,17 @@ ul {
 }
 
 .dif-image-list {
-border: 1px solid var(--CORNFLOWER, #E7E9FC);
+border: 1px solid var(--CORNFLOWER);
   background: url(<path-to-image>), lightgray -72.845px -19px / 144.444% 112.667% no-repeat;
 }
 
 .header-image-list {
-border: 1px solid var(--CORNFLOWER, #E7E9FC);
+border: 1px solid var(--CORNFLOWER);
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
 .section-bg{
-  background-color:var(--CLOUD,#F4F4FD);
+  background-color:var(--CLOUD);
 }
 .team-intro{
   font-size: 36px;
@@ -230,25 +221,24 @@ border: 1px solid var(--CORNFLOWER, #E7E9FC);
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--NAVY-BLUE, #2E2F42);
+  color: var(--NAVY-BLUE);
 }
 ul{
   list-style: none;
 }
 
   .list-item{
-    background-color: var(--WHITE, #FFFFFF);
+    background-color: var(--WHITE);
     font-weight: 500;
       font-size: 20px;
       line-height: 1.2;
       letter-spacing: 0.02em;
-      color: var(--NAVY-BLUE, #2E2F42);
+      color: var(--NAVY-BLUE);
   }
 
   .name-pd{
-    color: var(--NAVY-BLUE, #2E2F42);
-      font-family: var('Roboto',
-          sans-serif);
+    color: var(--NAVY-BLUE);
+      font-family: var(--roboto);
       font-size: 20px;
       font-style: normal;
       font-weight: 500;
@@ -259,12 +249,11 @@ ul{
     background: url(<path-to-image>), lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat
   }
   .end-foot{
-    background: var(--NAVY-BLUE, #2E2F42);
+    background: var(--NAVY-BLUE);
   }
 nav-logo {
-  color: var(--IRIS, #4D5AE5);
-  font-family: var('Raleway',
-      sans-serif);
+  color: var(--IRIS);
+  font-family: var(--raleway);
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -279,9 +268,8 @@ nav-logo {
 }
 
 .footer-studio {
-  color: var(--CLOUD, #F4F4FD);
-  font-family: var('Raleway',
-      sans-serif);
+  color: var(--CLOUD);
+  font-family: var(--raleway);
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -289,3 +277,19 @@ nav-logo {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
+.text{
+  color: var(--CLOUD);
+  
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+
+
+
+
