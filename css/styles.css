@@ -39,7 +39,7 @@ body {
   text-decoration: none;
 }
 
-.a:link{
+.nav-logo:link{
   text-decoration: none;
 }
 
@@ -53,45 +53,26 @@ nav span {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.main-item{
-
+nav{
+  list-style: none;
 }
-
-.studio {
+.default-list {
   color: var(--NAVY-BLUE);
   font-family: var(--roboto);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  letter-spacing: 0.32px;
-}
-
-ul{
-  list-style: none;
-  text-decoration: none;
-}
-
-nav ul {
-  list-style-type: none;
-}
-
-.default-list{
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--NAVY-BLUE);
+  line-height: 1.5;
 }
 .default-list:link,
-.default-list:hover{
+.default-list:hover {
   text-decoration: none;
   color: var(--OCEAN);
 
 }
 
 .default-mail {
-  color: var(--SLATE);
   font-family: var(--roboto);
   font-size: 16px;
   font-style: normal;
@@ -103,7 +84,7 @@ nav ul {
 .default-mail:link,
 .default-mail:hover,
 .default-mail:focus{
-  color: var(--OCEAN);
+  color: var(--Peacoat);
   text-decoration: none;
   color: var(--OCEAN);
 }
