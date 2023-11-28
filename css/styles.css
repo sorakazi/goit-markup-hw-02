@@ -16,7 +16,6 @@
   --GREY: #2E2F42;
   --WHITE: #FFFFFF;
   --Dairy: #FCFCFC;
-  --Peacoat: #434455;
   --raleway: 'Raleway', sans-serif;
   --roboto: 'Roboto', sans-serif;
 }
@@ -27,7 +26,7 @@ body {
   background-color: var(--WHITE);
 }
 
-.nav-logo {
+a{
   color: var(--IRIS);
   font-family: var(--raleway);
   font-size: 18px;
@@ -39,11 +38,11 @@ body {
   text-decoration: none;
 }
 
-.nav-logo:link{
+a:link{
   text-decoration: none;
 }
 
-nav span {
+.studio{
   color: var(--NAVY-BLUE);
   font-family: var(--raleway);
   font-size: 18px;
@@ -53,8 +52,12 @@ nav span {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-nav{
+ul{
   list-style: none;
+}
+nav a[href="./index.html"]{
+    list-style: none;
+  
 }
 .default-list {
   color: var(--NAVY-BLUE);
@@ -71,20 +74,28 @@ nav{
   color: var(--OCEAN);
 
 }
+.your-address{
+  font-style: normal;
+}
 
 .default-mail {
+  color: var(--SLATE);
   font-family: var(--roboto);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
+  text-decoration: none;
+  
 }
 
-.default-mail:link,
+
+.your-address a.default-mail{
+  color: var(--SLATE);
+}
 .default-mail:hover,
 .default-mail:focus{
-  color: var(--Peacoat);
   text-decoration: none;
   color: var(--OCEAN);
 }
@@ -204,7 +215,7 @@ ul{
   .end-foot{
     background: var(--NAVY-BLUE);
   }
-nav-logo {
+.nav-logo {
   color: var(--IRIS);
   font-family: var(--raleway);
   font-size: 18px;
@@ -221,7 +232,7 @@ nav-logo {
 }
 
 .footer-studio {
-  color: var(--CLOUD);
+  color: var(--CLOUD);wa
   font-family: var(--raleway);
   font-size: 18px;
   font-style: normal;
