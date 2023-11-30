@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>homework1</title>
+    <title>homework2</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -10,243 +11,59 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,800;1,800&family=Roboto:ital,wght@0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-<style>
-  * {
-  margin: 0%;
-  padding: 0%;
-}
+    <link rel="stylesheet" href="./css/styles.css" type="text/css" />
 
-:root {
-  --IRIS: #4D5AE5;
-  --OCEAN: #404BBF;
-  --NAVY-BLUE: #2E2F42;
-  --green: #31D0AA;
-  --SLATE: #434455;
-  --LIGHTSLATE: #8E8F99;
-  --cornflower:#E7E9FC;
-  --CLOUD: #F4F4FD;
-  --NAVYBLUEmodal: #2E2F42;
-  --GREY: #2E2F42;
-  --WHITE: #FFFFFF;
-  --Dairy: #FCFCFC;
-  --Peacoat: #434455;
-  --raleway: 'Raleway', sans-serif;
-  --roboto: 'Roboto', sans-serif;
-}
-
-body {
-  font-family:var(--roboto);
-  color: var(--SLATE);
-  background-color: var(--WHITE);
-}
-
-
-
-nav {
-  background: var(--WHITE);
-}
-
-.web {
-  color: var(--IRIS);
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  width: 44px;
-}
-
-.studio {
-  color: var(--NAVY-BLUE);
-  font-family: var(--raleway);
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
-
-.f-studio {
-  color: var(--CLOUD);
-  font-family: var(--raleway);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px;
-  /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
-
-.nav-link {
-  text-decoration: none;
-}
-
-.nav-menu {
-  list-style: none;
-}
-
-.nav-item-link {
-  color: var(--NAVY-BLUE);
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  font-style: normal;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  text-decoration: none;
-}
-
-.nav-item-link:hover {
-  color: var(--IRIS);
-}
-
-.address-item-link {
-  color: var(--SLATE);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  letter-spacing: 0.32px;
-  text-decoration: none;
-}
-
-.address-item-link:hover {
-  color: var(--IRIS);
-}
-
-.button-section {
-  align-items: center;
-  justify-content: center;
-  margin: 15px 200px 20px 0px;
-  display: flex;
-
-}
-
-.all-button {
-  color: var(--WHITE, #FFF);
-  font-family: var(--roboto);
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0.64px;
-  display: flex;
-  padding: 8px 20px;
-  margin-right: 10px;
-  border-radius: 4px;
-  background: var(--OCEAN);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-}
-
-.s-button {
-  color: var(--IRIS);
-  font-family: var(--roboto);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: 0.64px;
-  display: flex;
-  padding: 12px 24px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 4px;
-  border: 1px solid var(--cornflower);
-  background: var(--CLOUD);
-}
-
-.bank-app {
-  width: 360px;
-  height: 300px;
-  flex-shrink: 0;
-  background: url(<path-to-image>), lightgray -25.026px 0px / 125% 100% no-repeat;
-}
-
-.s-image {
-  width: 360px;
-  height: 300px;
-  flex-shrink: 0;
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-}
-
-.image-pd {
-  color: var(--NAVY-BLUE);
-  font-family: var(--roboto);
-  font-size: 20px;
-  font-weight: 500;
-  letter-spacing: 0.4px;
-}
-
-.image-desciption {
-  color: var(--SLATE);
-  font-family: var(--roboto);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-}
-
-footer {
-  width: 2000px;
-  height: 170px;
-  flex-shrink: 0;
-  background: var(--NAVY-BLUE);
-  margin-bottom: 1000px;
-
-}
-
-.p-footer {
-  width: 264px;
-  color: var(--CLOUD);
-  font-family: var(--roboto);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  padding-top: 30px;
-
-}
-</style>
   </head>
   <!-- Top line, main nav -->
   <body>
     <header>
-      <nav class="nav">
-        <a class="nav-link" href="/index.html"
-          ><span class="web">Web</span><span class="studio">Studio</span></a
+      <header>
+      <nav>
+        <a href="./index.html" class="webstudio">
+          Web<span class="studio-logo">Studio</span></a
         >
-        <ul class="nav-menu">
-          <li class="nav-item">
-            <a class="nav-item-link" href="studio">Studio</a>
+        <ul>
+          <li>
+            <a href="./index.html" class="pages">Studio</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-item-link" href="portfolio.html">Portfolio</a>
+          <li>
+            <a href="./portfolio.html" class="pages">Portfolio</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-item-link" href="contacts">Contacts</a>
+          <li>
+            <a href="#" class="pages">Contacts</a>
           </li>
         </ul>
       </nav>
       <!-- Top line, address-->
       <address class="address">
-        <ul class="address-list">
-          <li class="address-item">
-            <a class="address-item-link" href="mailto:info@devstudio.com"
+        <ul>
+          <li>
+            <a href="mailto:info@devstudio.com" class="address-item"
               >info@devstudio.com</a>
             
     </header>
     <main>
-      <section class="button-section">
-        <h1 hidden></h1>
+      <section>
+        <h1>list</h1>
         <ul>
-        <li><button class="all-button" type="button">All</button></li>
-       <li><button class="section-button" type="button">Web Site</button></li> 
-        <li><button class="section-button" type="button">App</button></li>
-        <li><button class="section-button" type="button">Design</button></li>
-        <li><button class="section-button" type="button">Marketing</button></li>
+        <li>
+          <button class="top-button" type="button">All</button>
+        </li>
+       <li>
+        <button class="top-button" type="button">Web Site</button>
+      </li> 
+        <li>
+          <button class="top-button" type="button">App</button>
+        </li>
+        <li>
+          <button class="top-button" type="button">Design</button>
+        </li>
+        <li>
+          <button class="top-button" type="button">Marketing</button>
+        </li>
         </ul>
       </section>
-      <ul class="interface">
+      <ul>
         <li>
       <img class="bank-app"
               src="./images/img_1.jpg"
