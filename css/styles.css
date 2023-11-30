@@ -8,6 +8,7 @@
   --OCEAN: #404BBF;
   --SLATE: #434455;
   --WHITE: #FFFFFF;
+  --CLOUD: #F4F4FD;
   --raleway: 'Raleway', sans-serif;
   --roboto: 'Roboto', sans-serif;
 }
@@ -141,4 +142,36 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--NAVY-BLUE);
+}
+.end-foot {
+      background: var(--NAVY-BLUE);
+    }
+
+
+.webstudio:link {
+  text-decoration: none;
+}
+
+.footer-studio {
+  color: var(--CLOUD);
+  font-family: var(--raleway);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.last-text {
+  color: var(--CLOUD);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: 0.32px;
 }
