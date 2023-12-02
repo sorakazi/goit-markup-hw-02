@@ -74,19 +74,20 @@ body {
   font-style: normal;
 }
 
-.dflt-address li {
+ul .default-mail {
+  color: var(--SLATE);
   font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--SLATE);
+  list-style: none;
 }
-
-.dflt-address li {
+.default-mail:link {
   text-decoration: none;
 }
-
-.address-item:hover,
-.address-item:focus {
+.default-mail:hover,
+.default-mail:focus {
   color: var(--OCEAN);
 }
 
@@ -175,7 +176,7 @@ body {
 }
 
 .image-desciption {
-  color: var(--SLATE);
+  color: var();
   font-family: var(--roboto), sans-serif;
   font-size: 16px;
   font-style: normal;
