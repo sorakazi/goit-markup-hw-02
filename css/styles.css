@@ -192,8 +192,8 @@ ul {
   --CLOUD: #F4F4FD;
   --WHITE: #FFFFFF;
   --Dairy: #FCFCFC;
-  --raleway: 'Raleway', sans-serif;
-  --roboto: 'Roboto', sans-serif;
+  --raleway: 'Raleway';
+  --roboto: 'Roboto';
 }
 
 body {
@@ -233,7 +233,6 @@ body {
   color: var(--NAVY-BLUE);
   font-family: var(--roboto), sans-serif;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -283,7 +282,6 @@ body {
 .card-item{
   background-color: var(--WHITE);
 }
-
 
 .first-text {
   color: var(--SLATE);
