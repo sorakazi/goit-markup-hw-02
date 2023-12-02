@@ -321,3 +321,21 @@ body {
   line-height: 24px;
   letter-spacing: 0.32px;
 }
+
+
+.top-button {
+  font-family: var(--roboto), sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--IRIS);
+  background-color: var(--CLOUD);
+}
+
+.top-button:hover,
+.top-button:focus {
+  color: var(--WHITE);
+  background-color: var(--OCEAN);
+  cursor: pointer;  
+}
