@@ -194,8 +194,10 @@ ul .default-mail {
   line-height: 1.2;
 }
 
-.image-desciption {
+.portfolio-list p {
   color: var(--SLATE);
+}
+.image-desciption {
   font-family: var(--roboto), sans-serif;
   font-size: 16px;
   font-style: normal;
