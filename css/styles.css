@@ -154,7 +154,25 @@ ul .default-mail {
   line-height: 24px;
   letter-spacing: 0.32px;
 }
+.end-foot {
+  background-color: var(--NAVY-BLUE);
+}
+.footer-studio {
+  color: var  CLOUD);
+  font-family: var(--raleway);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
 
+.last-text {
+  line-height: 1.5;
+  color: var(--CLOUD);
+  letter-spacing: 0.02em;
+}
 .top-button {
   font-family: var(--roboto), sans-serif;
   font-weight: 500;
@@ -170,11 +188,6 @@ ul .default-mail {
   color: var(--WHITE);
   background-color: var(--OCEAN);
   cursor: pointer;
-}
-
-.bank-app {
-  background: url(<path-to-image>),
-    lightgray -25.026px 0px / 125% 100% no-repeat;
 }
 
 .image-pd {
