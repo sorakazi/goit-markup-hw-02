@@ -230,11 +230,12 @@ body {
     color: var(--NAVY-BLUE);
 }
 
-ul .pages-link{
+.pages-link{
   text-decoration: none;
+  color: var(--NAVY-BLUE);
 }
 
-ul .pages-link:hover, ul .pages-link:focus{
+.pages-link:hover, ul .pages-link:focus{
   color: var(--OCEAN);
 }
 
