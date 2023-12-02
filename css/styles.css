@@ -204,8 +204,7 @@ body {
   background-color: var(--WHITE);
 }
 .webstudio {
-  font-family: "Raleway",
-    sans-serif;
+  font-family: var(--raleway);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -221,11 +220,9 @@ body {
 .studio-logo {
   color: var(--NAVY-BLUE);
 }
-ul{
-  list-style: none;
-}
 
-ul .pages-link{
+.list{
+  list-style: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
