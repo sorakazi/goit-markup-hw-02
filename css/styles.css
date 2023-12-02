@@ -158,7 +158,7 @@ ul .default-mail {
   background-color: var(--NAVY-BLUE);
 }
 .footer-studio {
-  color: var  CLOUD);
+  color: var(--CLOUD);
   font-family: var(--raleway);
   font-size: 18px;
   font-style: normal;
