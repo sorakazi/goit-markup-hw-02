@@ -267,6 +267,34 @@ body {
 .address-item:focus {
   color: var(--OCEAN);
 }
+
+.main {
+  background: var(--NAVY-BLUE);
+}
+
+.main-header {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--WHITE);
+}
+
+.main-button {
+  background-color: var(--IRIS);
+  font-family: var(--roboto), sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--WHITE);
+  cursor: pointer;
+}
+
+.main-button:hover,
+.main-button:focus {
+  background-color: var(--OCEAN);
+}
 .section-bg {
   background-color: var(--CLOUD);
 }
