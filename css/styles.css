@@ -173,7 +173,7 @@ ul .default-mail {
   color: var(--CLOUD);
   letter-spacing: 0.02em;
 }
-.top-button {
+.dflt-button {
   font-family: var(--roboto), sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -183,8 +183,8 @@ ul .default-mail {
   background-color: var(--CLOUD);
 }
 
-.top-button:hover,
-.top-button:focus {
+.dflt-button:hover,
+.dflt-button:focus {
   color: var(--WHITE);
   background-color: var(--OCEAN);
   cursor: pointer;
