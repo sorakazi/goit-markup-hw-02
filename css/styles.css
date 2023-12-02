@@ -197,12 +197,13 @@ ul {
 }
 
 body {
-  font-family: var(--roboto);
+  font-family: var(--roboto),
+    sans-serif;
   color: var(--SLATE);
   background-color: var(--WHITE);
 }
 .webstudio {
-  font-family: var(--raleway);
+  font-family: var(--raleway), sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -226,6 +227,16 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE);
+}
+
+.head {
+  color: var(--NAVY-BLUE);
+  font-family: var(--roboto), sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .pages-link{
@@ -256,4 +267,31 @@ body {
 .address-item:hover,
 .address-item:focus {
   color: var(--OCEAN);
+}
+.section-bg {
+  background-color: var(--CLOUD);
+}
+
+.team-intro {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--NAVY-BLUE);
+}
+.card-item{
+  background-color: var(--WHITE);
+}
+
+
+.first-text {
+  color: var(--SLATE);
+  font-family: var(--roboto),
+    sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
